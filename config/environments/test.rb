@@ -30,7 +30,9 @@ Rails.application.configure do
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
   if config.respond_to?(:action_mailer)
-    config.action_mailer.delivery_method = :test
+  if config.respond_to?(:action_mailer)
+      config.action_mailer.delivery_method = :test
+  end
   end
 
   # Print deprecation notices to the stderr.

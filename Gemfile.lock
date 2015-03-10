@@ -78,6 +78,12 @@ GEM
       activerecord (>= 4.0.0, < 5)
     babosa (1.0.2)
     bcrypt (3.1.10)
+    bootstrap-sass (3.1.0.2)
+      sass (~> 3.2)
+    bootstrap-sass-rails (3.1.0.0)
+      bootstrap-sass (~> 3.1.0.0)
+      railties (>= 3.2.0)
+      sass-rails (>= 3.2.0)
     builder (3.2.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -152,6 +158,8 @@ GEM
       acts_as_indexed (~> 0.8.0)
       decorators (~> 2.0.0)
       refinerycms-core (~> 3.0.0)
+    refinerycms-bootstrap (0.0.1)
+      bootstrap-sass-rails
     refinerycms-i18n (3.0.1)
       rails-i18n (~> 4.0.1)
       routing-filter (>= 0.4.0)
@@ -209,6 +217,8 @@ DEPENDENCIES
   rails (= 4.1.8)
   refinerycms!
   refinerycms-acts-as-indexed (~> 2.0, >= 2.0.0)
+  refinerycms-bootstrap
+  refinerycms-i18n
   refinerycms-wymeditor (~> 1.0, >= 1.0.6)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

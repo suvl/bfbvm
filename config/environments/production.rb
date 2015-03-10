@@ -59,7 +59,9 @@ Rails.application.configure do
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   if config.respond_to?(:action_mailer)
-    # config.action_mailer.raise_delivery_errors = false
+  if config.respond_to?(:action_mailer)
+      # config.action_mailer.raise_delivery_errors = false
+  end
   end
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to

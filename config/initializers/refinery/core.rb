@@ -8,7 +8,7 @@ Refinery::Core.configure do |config|
 
   # When true will use Amazon's Simple Storage Service instead of
   # the default file system for storing resources and images
-  config.s3_backend = !(ENV['S3_KEY'].nil? || ENV['S3_SECRET'].nil?)
+  #config.s3_backend = !(ENV['S3_KEY'].nil? || ENV['S3_SECRET'].nil?)
 
   # Use a custom Dragonfly storage backend instead of the default
   # file system for storing resources and images
@@ -20,7 +20,7 @@ Refinery::Core.configure do |config|
   # config.base_cache_key = :refinery
 
   # Site name
-  # config.site_name = "Company Name"
+  config.site_name = "Banda Filarmónica de Mogadouro"
 
   # This activates Google Analytics tracking within your website. If this
   # config is left blank or set to UA-xxxxxx-x then no remote calls to
@@ -32,7 +32,7 @@ Refinery::Core.configure do |config|
 
   # Should set this if concerned about DOS attacks. See
   # http://markevans.github.com/dragonfly/file.Configuration.html#Configuration
-  # config.dragonfly_secret = "391661a5adfa1475a6fd664ba13cea6874d267095905c92a"
+  # config.dragonfly_secret = "54564dc5a7055ac88aa96ae806129bee7dc98b5ec49c90cf"
 
   # Register extra javascript for backend
   # config.register_javascript "prototype-rails"
