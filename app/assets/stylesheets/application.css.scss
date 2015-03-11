@@ -1,0 +1,291 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ * require_self
+ * require_tree .
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+  background-color: #eee;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.background1 {
+  background: image_url("background1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background2 {
+  background: image_url("background2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background3 {
+  background: image_url("background3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background4 {
+  background: image_url("background4.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background5 {
+  background: image_url("background5.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background6 {
+  background: image_url("background6.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background7 {
+  background: image_url("background7.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.body-container {
+  > .container {
+    float: left;
+    background: white;
+    margin-left: 10%;
+    margin-top: 90px;
+    max-width: 600px;
+  }
+  > .right-container {
+    float: right;
+    background: white;
+    margin-right: 10%;
+    margin-top: 90px;
+    max-width: 600px;
+  }
+
+  > .container-home {
+    margin: 90px auto;
+    background: white;
+    background: rgba(255, 255, 255, 0.90);
+    max-width: 600px;
+    padding: 2em;
+  }
+
+  position: absolute;
+  top: 70px;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(59, 114, 217, 0.86);
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    .text-muted {
+      margin: 20px 0;
+      color: #eee;
+    }
+  }
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: rgba(59, 114, 217, 0.86);
+  border: 0;
+  background-repeat: repeat-x;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+}
+
+.navbar {
+  min-height: 70px;
+}
+
+#navbar {
+  float: right;
+}
+
+.navbar-default .navbar-brand {
+  color: #eee;
+}
+
+.navbar {
+  z-index: 9999;
+}
+
+.dropdown-menu {
+      background-color: rgba(59, 114, 217, 0.86);
+       > li > a {
+      color: #FFF;
+      }
+      > li > a:hover {
+      background-color: inherit;
+      color: #FFF;
+      text-decoration: underline;
+      }
+}
+.navbar-default {
+  .navbar-nav {
+    > li > a {
+      color: #FFF;
+      &:hover {
+        color: #FFF;
+      }
+    }
+  }
+  .navbar-toggle {
+    .icon-bar {
+      background-color: white;
+    }
+    border-color: white;
+  }
+  .navbar-nav > {
+    li > a:hover {
+      color: #fff;
+    }
+    .active > a {
+      color: #eee;
+      background-color: rgba(163, 203, 232, 0.42);
+      min-height: 70px;
+      padding: 45px 20px 0 20px;
+      &:focus, &:hover {
+        color: #eee;
+        background-color: rgba(163, 203, 232, 0.42);
+        min-height: 70px;
+        padding: 45px 20px 0 20px;
+      }
+    }
+    .open > a {
+      color: #eee;
+      background-color: rgba(163, 203, 232, 0.42);
+      min-height: 70px;
+      padding: 45px 20px 0 20px;
+      &:focus, &:hover {
+        color: #eee;
+        background-color: rgba(163, 203, 232, 0.42);
+        min-height: 70px;
+        padding: 45px 20px 0 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-default {
+    .navbar-collapse, .navbar-form {
+      border-color: #ff4b4b;
+      margin-top: 30px;
+      overflow: hidden;
+    }
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #fff;
+  }
+
+}
+
+.navbar-default h4
+ {
+  color: #eee;
+}
+
+
+.navbar-brand {
+  > img {
+    max-height: 150%;
+    display: inline-block;
+    padding: 0;
+    margin-top: -1em;
+  }
+  padding: 0 0 0 1em;
+  margin-right: 2em;
+}
+
+/*
+@media (max-width: 814px) {
+    .navbar-brand > img {
+        max-height: 110%;
+    }
+    .navbar-brand > .inline-block > h4 {
+        font-size: 0.7em;
+    }
+}
+*/
+
+.inline-block {
+  display: inline-block;
+}
+
+.navbar-nav > li > a {
+  padding: 45px 20px 0 20px;
+  vertical-align: middle;
+  min-height: 70px;
+}
+
+.actions {
+  line-height: 4em;
+  margin: 0px;
+  list-style: outside none none;
+  cursor: default;
+  overflow: hidden;
+  color: #eee;
+  li {
+    display: inline;
+    color: #eee;
+    a {
+      color: #eee;
+    }
+  }
+}
+
+.footer-paragraph {
+  line-height: 4em;
+  margin: 0px;
+  color: #eee;
+}
+

@@ -1,0 +1,10 @@
+<div class="body-container">
+    <div class="container-home">
+      <div class="page-header">
+        <h1><%= @page.custom_slug_or_title %></h1>
+      </div>
+
+      <%=raw @page.content_for(:body) %>
+
+    </div>
+</div>

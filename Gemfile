@@ -52,7 +52,10 @@ gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
 gem 'refinerycms-wymeditor', ['~> 1.0', '>= 1.0.6']
 
 # bootstrap
-gem 'refinerycms-bootstrap'
+#gem 'sprockets-rails', :require => 'sprockets/railtie'
+#gem 'bootstrap-sass'
+#gem 'bootstrap-sass', :git => 'https://github.com/twbs/bootstrap-sass.git', :branch => 'next'
+
 
 # multiple languages
 gem 'refinerycms-i18n'

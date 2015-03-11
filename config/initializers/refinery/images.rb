@@ -1,7 +1,7 @@
 # encoding: utf-8
 Refinery::Images.configure do |config|
   # Configures the maximum allowed upload size (in bytes) for an image
-  # config.max_image_size = 5242880
+  config.max_image_size = 20971520
 
   # Configure how many images per page should be displayed when a dialog is presented that contains images
   # config.pages_per_dialog = 18
@@ -14,7 +14,7 @@ Refinery::Images.configure do |config|
   # config.pages_per_admin_index = 20
 
   # Configure image sizes
-  # config.user_image_sizes = {:small=>"110x110>", :medium=>"225x255>", :large=>"450x450>"}
+  config.user_image_sizes = {:small=>"150x150>", :medium=>"300x300>", :large=>"600x600>"}
 
   # Configure white-listed mime types for validation
   # config.whitelisted_mime_types = ["image/jpeg", "image/png", "image/gif", "image/tiff"]

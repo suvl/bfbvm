@@ -44,7 +44,7 @@ Refinery::Pages.configure do |config|
   # config.cache_pages_backend = false
 
   # Set this to true to activate full-page-cache
-  config.cache_pages_full = true
+  # config.cache_pages_full = true
 
   # Set this to true to fully expand the page hierarchy in the admin
   # config.auto_expand_admin_tree = true
