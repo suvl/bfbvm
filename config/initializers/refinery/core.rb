@@ -12,7 +12,7 @@ Refinery::Core.configure do |config|
 
   # Use a custom Dragonfly storage backend instead of the default
   # file system for storing resources and images
-  # config.dragonfly_custom_backend_class = nil
+  #config.dragonfly_custom_backend_class = ::Dragonfly::DataStorage::CloudinaryStore
   # config.dragonfly_custom_backend_opts = {}
 
   # Whenever Refinery caches anything and can set a cache key, it will add

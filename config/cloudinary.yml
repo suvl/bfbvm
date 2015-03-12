@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: bvm
+  api_key: '926797775318899'
+  api_secret: 7m9DbNQdcdj5Rp7FyCbb9za7l1M
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: bvm
+  api_key: '926797775318899'
+  api_secret: 7m9DbNQdcdj5Rp7FyCbb9za7l1M
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: bvm
+  api_key: '926797775318899'
+  api_secret: 7m9DbNQdcdj5Rp7FyCbb9za7l1M
+  enhance_image_tag: true
+  static_image_support: false

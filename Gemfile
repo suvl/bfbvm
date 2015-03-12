@@ -14,7 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer',  platforms: :ruby
+gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -56,6 +56,8 @@ gem 'refinerycms-wymeditor', ['~> 1.0', '>= 1.0.6']
 #gem 'bootstrap-sass'
 #gem 'bootstrap-sass', :git => 'https://github.com/twbs/bootstrap-sass.git', :branch => 'next'
 
-
 # multiple languages
 gem 'refinerycms-i18n'
+
+# use cloudinary as a backend
+gem 'dragonfly-cloudinary'
