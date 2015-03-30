@@ -1,0 +1,24 @@
+/* line 3, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/submenu.css.scss */
+ul.collapsible_menu li {
+  position: relative;
+}
+/* line 5, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/submenu.css.scss */
+ul.collapsible_menu li span.arrow {
+  background-repeat: no-repeat;
+  background-image: url(/assets/refinery/icons/up.gif);
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  width: 11px;
+  height: 7px;
+  cursor: pointer;
+}
+/* line 15, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/submenu.css.scss */
+ul.collapsible_menu li.closed span.arrow {
+  background-image: url(/assets/refinery/icons/down.gif);
+}
+/* line 19, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/submenu.css.scss */
+ul.collapsible_menu > div {
+  width: 93%;
+  margin: 0px auto;
+}

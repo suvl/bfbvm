@@ -13,6 +13,9 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+/*@import "font-awesome-sprockets";
+@import "font-awesome";*/
+
 
 
 body {
@@ -121,12 +124,21 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  > .container {
+  > .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
     .text-muted {
       margin: 20px 0;
       color: #eee;
+    }
+    .row {
+      * {
+        .actions {
+          font-size: 32px;
+          margin: -32px auto;
+          padding: 0;
+        }
+      }
     }
   }
 }

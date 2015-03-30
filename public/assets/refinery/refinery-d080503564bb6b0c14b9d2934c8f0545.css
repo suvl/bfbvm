@@ -1,0 +1,2880 @@
+/*
+ * This is a manifest file that'll be compiled into refinery.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+
+
+
+
+
+
+*/
+
+/* line 15, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* line 19, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+html {
+  height: 100%;
+}
+
+/* line 22, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+body {
+  height: 100%;
+  margin: -52px 0;
+  padding: 52px 0 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  line-height: 1.5em;
+  color: #41403C;
+  background: #d9d9d9;
+}
+
+/* line 32, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+acronym {
+  cursor: help;
+}
+
+/* line 35, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+label[for] {
+  cursor: pointer;
+}
+
+/* line 38, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#admin_container, #login_container {
+  font-size: 13px;
+  margin: 0px auto 15px auto;
+  text-align: left;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  position: relative;
+  margin-top: 15px;
+}
+/* line 43, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#admin_container a, #login_container a {
+  color: #41403C;
+  text-decoration: none;
+}
+/* line 47, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#admin_container a:hover, #login_container a:hover {
+  color: #000;
+  border-bottom: 1px solid #727272;
+}
+/* line 56, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#admin_container #menu a:hover, #login_container #menu a:hover {
+  border-bottom: 0px;
+}
+
+/* line 61, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container {
+  background: white;
+  width: 620px;
+}
+
+/* line 65, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#admin_container {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, transparent), color-stop(120px, transparent), color-stop(120px, white), color-stop(100%, white));
+  background-image: -webkit-linear-gradient(left, transparent, transparent 120px, white 120px, white 100%);
+  background-image: -moz-linear-gradient(left, transparent, transparent 120px, white 120px, white 100%);
+  background-image: -ms-linear-gradient(left, transparent, transparent 120px, white 120px, white 100%);
+  background-image: -o-linear-gradient(left, transparent, transparent 120px, white 120px, white 100%);
+  width: 1080px;
+  margin: -5px auto 0px auto;
+  height: 100%;
+}
+
+/* line 71, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#page_container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius-right: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  background-color: white;
+  padding: 1.5em 1em;
+  position: relative;
+  float: left;
+  width: 960px;
+}
+
+/* line 80, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .field, #content .form-actions {
+  position: relative;
+}
+
+/* line 83, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_container #content .field, .dialog_container .field {
+  width: auto;
+  margin: 5px 0;
+}
+
+/* line 87, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+input.widest, textarea.widest {
+  width: 99%;
+}
+
+/* line 90, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+select.widest {
+  max-width: 99%;
+}
+
+/* line 93, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records {
+  float: left;
+  width: 67.7%;
+}
+
+/* line 97, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#actions {
+  float: right;
+  width: 30%;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+/* line 102, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#actions ul {
+  margin: 0px 0px 18px 0px;
+  padding: 0;
+  list-style: none;
+}
+/* line 106, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#actions ul#current_locale {
+  margin-top: 30px;
+}
+/* line 110, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#actions li {
+  margin-bottom: 10px;
+}
+/* line 112, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#actions li a {
+  background-color: #dbedff;
+  background-position: 12px;
+  background-repeat: no-repeat;
+  border: 1px solid #65C3F7;
+  display: block;
+  padding: 9px 12px 9px 36px;
+}
+/* line 119, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#actions li a:hover {
+  background-color: #cae7fb;
+}
+/* line 122, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#actions li a:active {
+  background-color: #22A7F2;
+  color: white;
+}
+/* line 126, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#actions li a img {
+  vertical-align: bottom;
+  border: 0;
+}
+/* line 131, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#actions li.selected a {
+  background-color: #22A7F2;
+  color: white;
+}
+
+/* line 137, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#sort-status {
+  padding: 5px 5px 5px 0px;
+}
+
+/* line 140, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+hr {
+  border: 0;
+  border-top: 1px solid #484743;
+}
+
+/* line 145, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.actions img {
+  border: none;
+}
+/* line 148, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.actions a, .actions a:hover {
+  border: none;
+  text-decoration: none;
+}
+
+/* line 153, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.errorExplanation {
+  background: 7px 10px no-repeat url(/assets/refinery/icons/cancel.png) #ffb1b1;
+  padding: 0px 5px 5px 30px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid red;
+}
+/* line 160, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.errorExplanation h2 {
+  color: red;
+  text-transform: none;
+  display: none;
+}
+/* line 165, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.errorExplanation p {
+  font-weight: normal;
+}
+
+/* line 169, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.fieldWithErrors input, .fieldWithErrors textarea {
+  border: 1px solid red !important;
+  background-color: #FFECF0 !important;
+}
+
+/* line 173, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.fieldWithErrors iframe, .fieldWithErrors .visual_editor_box {
+  border-color: red !important;
+}
+
+/* line 176, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#message, .flash {
+  padding: 8px 8px 8px 30px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+/* line 181, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash_notice, .flash_message {
+  border: 1px solid #00A017;
+  color: #00A017;
+  background: 7px 7px no-repeat url(/assets/refinery/icons/accept.png) #e0f5e0;
+}
+
+/* line 186, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash_notice, .flash_notice * {
+  color: #00A017;
+}
+
+/* line 189, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash_error, .flash_alert {
+  border: 1px solid #A00027;
+  color: #A00027;
+  background: 7px 7px no-repeat url(/assets/refinery/icons/cancel.png) #ffb1b1;
+}
+
+/* line 194, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash.flash_notice #flash_close, .flash.flash_error #flash_close, .flash.flash_alert #flash_close {
+  text-transform: lowercase;
+}
+
+/* line 197, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash.flash_message {
+  background: #E0F5E0;
+  padding: 9px;
+  position: relative;
+  margin-bottom: 32px;
+}
+/* line 202, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash.flash_message h2 {
+  margin-top: 12px;
+}
+
+/* line 206, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash.flash_message.flash_message, .flash_message * {
+  color: #262719;
+  font-size: 14px;
+}
+
+/* line 210, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash a, .flash a:hover {
+  color: #e20003;
+  border-bottom-color: #e20003;
+}
+
+/* line 215, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash.flash_error a, .flash.flash_error a:hover,
+.flash.flash_alert a, .flash.flash_alert a:hover {
+  display: none;
+}
+
+/* line 220, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+noscript .flash.flash_error a, noscript .flash.flash_error a:hover,
+noscript .flash.flash_alert a, noscript .flash.flash_alert a:hover {
+  display: inline;
+  font-weight: bold;
+}
+
+/* line 224, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.flash a#flash_close {
+  position: absolute;
+  right: 9px;
+  top: 7px;
+}
+
+/* line 230, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .visual_editor_box a, #content .ui-tabs a {
+  border-bottom: 0px none;
+}
+
+/* line 233, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.index #content, .splash #content {
+  background-color: white;
+  background-repeat: repeat-y;
+}
+
+/* line 237, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content {
+  padding: 0px;
+}
+/* line 239, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content a {
+  border-bottom: 1px dotted #727272;
+}
+/* line 241, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content a.locale {
+  border-bottom: 0;
+}
+/* line 245, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content h1 {
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  border-bottom: 1px solid #99998B;
+  padding-bottom: 10px;
+}
+/* line 252, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content h2 {
+  font-size: 18px;
+  color: #41403c;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+/* line 259, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content form.edit_image {
+  width: 70%;
+  float: left;
+}
+/* line 263, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content #existing_image {
+  float: right;
+  width: 25%;
+}
+/* line 268, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .actions a {
+  display: block;
+  float: right;
+  margin: 3px 3px;
+  line-height: inherit;
+  border-bottom: 0px none;
+}
+
+/* line 277, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.less-important {
+  color: #727272;
+}
+
+/* line 280, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content {
+  background-color: white;
+}
+
+/* line 283, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+header, footer, nav {
+  display: block;
+}
+
+/* line 286, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#page_container .login #page h1 {
+  margin: 0;
+  padding: 5px;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+/* line 292, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container {
+  /* Works in Firefox, Safari, Chrome, IE8+ */
+}
+/* line 293, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container #page_container {
+  background: transparent;
+  width: 100%;
+}
+/* line 296, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container #page_container div.remember_me label, #login_container #page_container label.inline {
+  display: inline;
+}
+/* line 299, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container #page_container div.actions {
+  margin-top: 12px;
+}
+/* line 302, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container #page_container div.remember_me {
+  width: 300px;
+  float: left;
+}
+/* line 306, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container #page_container div.forgot_password {
+  float: right;
+  width: 250px;
+}
+/* line 311, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container header {
+  background: #eaeaea;
+  height: auto;
+  float: none;
+  width: 100%;
+  border-radius-top: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+}
+/* line 317, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container header h1 {
+  color: #41403c;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 15px;
+  line-height: 30px;
+  padding-top: 15px;
+}
+/* line 328, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container label {
+  margin-top: 0px;
+}
+/* line 331, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container label, #login_container a {
+  font-size: 14px;
+}
+/* line 334, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container .field {
+  margin-bottom: 20px;
+}
+/* line 336, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container .field.remember_me, #login_container .field.forgot_password {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+/* line 340, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container .field.forgot_password {
+  text-align: right;
+}
+/* line 343, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container .field.remember_me label {
+  margin-top: 20px;
+}
+/* line 347, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container #flash_container, #login_container .errorExplanation {
+  margin-bottom: 12px;
+}
+/* line 351, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container input.larger {
+  background: url(/assets/refinery/text_field_background.png) repeat-x white;
+  height: 31px;
+}
+/* line 355, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container input.larger:focus {
+  background-position: 0px -41px;
+}
+/* line 358, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#login_container .fieldWithErrors input.larger {
+  background-position: 0px -82px;
+  border: 1px solid red;
+}
+
+/* line 363, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+div.field.checkbox_access {
+  margin-top: 20px;
+}
+/* line 365, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+div.field.checkbox_access ul.checkboxes li {
+  margin-top: 3px;
+}
+/* line 368, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+div.field.checkbox_access .label_with_help a {
+  font-weight: normal;
+}
+
+/* line 372, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#menu {
+  display: block;
+  margin: 45px 0px 0px 0px;
+  padding: 0px;
+  position: absolute;
+  background: transparent;
+}
+
+/* line 379, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+header {
+  float: left;
+  margin-bottom: 0px;
+  width: 120px;
+}
+/* line 383, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+header a, header a:hover {
+  border-bottom: 0px none;
+}
+/* line 386, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+header #logo {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+/* line 391, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+header h1, header h1 a {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding-bottom: 4px;
+  margin-top: 0;
+}
+/* line 399, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+header p {
+  color: white;
+  font-size: 90%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 406, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#menu {
+  display: block;
+  position: relative;
+}
+/* line 409, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#menu.ui-sortable a {
+  cursor: move;
+}
+/* line 412, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#menu.ui-sortable-disabled a {
+  cursor: pointer;
+}
+/* line 415, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#menu a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #e9e9e9;
+  margin-bottom: 1px;
+  color: #0770ad;
+  font-weight: normal;
+  position: relative;
+}
+/* line 425, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#menu a.active, #menu a:hover, #menu a:focus {
+  background-color: #25a9f4;
+  color: white;
+}
+/* line 429, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#menu a.active {
+  margin-left: -0.5em;
+  font-weight: bold;
+}
+/* line 436, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#menu a#menu_reorder,
+#menu a#menu_reorder_done {
+  height: 14px;
+  width: 14px;
+  margin-bottom: 0;
+  padding: 6px;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  float: right;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 447, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#menu a#menu_reorder_done {
+  background: white;
+}
+
+/* line 452, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 456, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.preview {
+  color: #A3A093;
+}
+
+/* line 459, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#site_link {
+  display: block;
+  color: #C2C2B3;
+  float: left;
+}
+
+/* line 464, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#site_link:hover {
+  text-decoration: underline;
+}
+
+/* line 467, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.filter {
+  float: right;
+}
+
+/* line 472, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records > ul, #records > #recent_activity > ul, #records > #recent_inquiries > ul,
+#records .pagination_container > ul, #records .pagination_frame > ul {
+  margin-left: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+/* line 478, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records > ul li, #records > #recent_activity > ul li, #records > #recent_inquiries > ul li,
+#records .pagination_container > ul li, #records .pagination_frame > ul {
+  list-style: none;
+  padding: 0px 5px;
+  vertical-align: top;
+  margin-bottom: 2px;
+  line-height: 35px;
+  position: relative;
+}
+/* line 486, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records > #recent_activity > ul li, #records > #recent_inquiries > ul li {
+  max-height: 35px;
+}
+
+/* line 490, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#recent_activity li a, #recent_inquiries li a {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+/* line 498, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content #records > ul li .actions a, #content #records .pagination_container > ul li .actions a {
+  line-height: 29px;
+}
+
+/* line 505, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records ul.clickable li {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+/* line 508, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records ul.clickable li a {
+  padding: 0px 5px;
+  vertical-align: top;
+  margin-bottom: 2px;
+  line-height: 35px;
+  display: block;
+  border-bottom: 0px none;
+}
+/* line 519, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records .left-column {
+  float: left;
+  width: 65%;
+}
+/* line 522, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records .left-column img {
+  vertical-align: bottom;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+/* line 528, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records .right-column {
+  float: right;
+  width: 34%;
+  text-align: right;
+}
+/* line 533, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records .on {
+  background-color: #EAEAEA;
+}
+/* line 536, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records .off, #records .on-hover {
+  background-color: white;
+}
+/* line 539, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records ul.empty {
+  display: none;
+}
+/* line 542, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records ul#sortable_list, #records ul.sortable_list {
+  margin-top: 6px;
+}
+/* line 545, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records > #recent_activity, #records > #recent_inquiries {
+  float: left;
+  width: 48%;
+}
+/* line 549, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records > #recent_inquiries {
+  margin-left: 21px;
+}
+
+/* line 553, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.one_list > #recent_activity, #records.one_list > #recent_inquiries {
+  width: 100%;
+}
+
+/* line 556, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#pagination ul a:hover, #pagination .on {
+  background: url(/assets/refinery/hover-gradient.jpg) repeat-x bottom #d4d4c6;
+}
+
+/* line 559, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree ul li ul, .tree ul li ul {
+  padding: 0;
+}
+
+/* line 562, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree ul li, .tree ul li {
+  margin: 0px;
+  padding: 4px 0 0 40px;
+  background: url(/assets/refinery/branch.gif) no-repeat 15px 0px;
+}
+
+/* line 567, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree li.record ul {
+  margin-left: 0;
+}
+
+/* line 570, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree .on-hover, #pagination ul.tree a:hover, #pagination .tree .on {
+  background: url(/assets/refinery/branch.gif) no-repeat 15px 0px;
+}
+
+/* line 573, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree ul li.branch_start, .tree ul li.branch_start {
+  background-image: url(/assets/refinery/branch-start.gif);
+}
+
+/* line 576, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree ul li.branch_end, .tree ul li.branch_end {
+  background-image: url(/assets/refinery/branch-end.gif);
+}
+
+/* line 579, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree li {
+  line-height: 25px;
+}
+
+/* line 582, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree li span.spacing, .tree li span.spacing {
+  display: none;
+}
+
+/* line 585, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree ul li > div:hover, .tree ul li > div:hover {
+  background-color: #EAEAEA;
+}
+
+/* line 588, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#sortable_list.reordering > li, .sortable_list.reordering > li {
+  cursor: move;
+}
+
+/* line 591, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records h2, #actions h2 {
+  margin-top: 0px;
+}
+
+/* line 594, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination {
+  background-color: #C9DAE2;
+  padding: 5px 5px 4px 5px;
+  margin: 10px 0px;
+}
+/* line 598, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination em {
+  font-weight: bold;
+  font-style: normal;
+  padding: 0px 6px;
+}
+
+/* line 605, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination .disabled {
+  color: #A8B9C1;
+}
+/* line 608, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination a, .pagination #content a, .pagination .current, .pagination .disabled, .pagination em {
+  padding: 7px;
+  line-height: 20px;
+  border-bottom: 0px none;
+}
+/* line 613, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination .current, .pagination a:hover, .pagination em {
+  background: #A8B9C1;
+}
+
+/* line 617, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog-form-actions .pagination {
+  margin: -4px 6px -4px 0px;
+  float: right;
+  width: auto;
+}
+
+/* line 622, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog-form-actions .pagination a, #dialog-form-actions .pagination .current, #dialog-form-actions .pagination .disabled {
+  line-height: 15px;
+}
+
+/* line 625, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+textarea {
+  line-height: 20px;
+  padding: 5px;
+}
+
+/* line 629, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.field-couple {
+  margin-bottom: 20px;
+}
+
+/* line 632, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.submit {
+  border: inherit;
+  width: auto;
+  height: 25px;
+}
+
+/* line 637, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+label, .label_with_help {
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+}
+
+/* line 643, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+label.input_label {
+  font-size: inherit;
+  margin-bottom: inherit;
+  display: inline;
+  font-weight: normal;
+  margin-top: inherit;
+}
+
+/* line 650, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+small label {
+  font-size: inherit;
+  font-weight: inherit;
+  display: inherit;
+}
+
+/* line 655, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+label.stripped {
+  float: none;
+  display: inline;
+  font-weight: normal;
+  font-size: 1em;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 663, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#body_field {
+  float: left;
+  width: 60%;
+}
+
+/* line 667, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.no_side_body {
+  width: 72% !important;
+}
+
+/* line 670, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#side_body_field {
+  float: left;
+  width: 38%;
+  margin-left: 18px;
+}
+
+/* line 675, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#body_field textarea, #side_body_field textarea {
+  width: 99%;
+}
+
+/* line 678, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.record .title span {
+  line-height: 30px;
+}
+
+/* line 681, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.files .record .title, #dialog_main #resource_file_area .pages_list ul li a.page_link {
+  display: inline-block;
+  padding-left: 24px;
+  min-height: 16px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url(/assets/refinery/icons/folder_page_white.png);
+}
+
+/* line 689, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main #resource_file_area .pages_list ul li a.page_link {
+  background-position: 5px center;
+  display: block;
+}
+
+/* line 693, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.files .record .title.pdf, #dialog_main #resource_file_area .pages_list ul li a.page_link.pdf {
+  background-image: url(/assets/refinery/icons/pdf.png);
+}
+
+/* line 705, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.files .record .title.jpg,
+#records.files .record .title.gif,
+#records.files .record .title.jpeg,
+#records.files .record .title.png,
+#records.files .record .title.tiff,
+#dialog_main #resource_file_area .pages_list ul li a.page_link.jpg,
+#dialog_main #resource_file_area .pages_list ul li a.page_link.jpeg,
+#dialog_main #resource_file_area .pages_list ul li a.page_link.gif,
+#dialog_main #resource_file_area .pages_list ul li a.page_link.png,
+#dialog_main #resource_file_area .pages_list ul li a.page_link.tiff {
+  background-image: url(/assets/refinery/icons/img.png);
+}
+
+/* line 709, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.files .record .title.doc, #records.files .record .title.pages, #records.files .record .title.docx, #dialog_main #resource_file_area .pages_list ul li a.page_link.doc, #dialog_main #resource_file_area .pages_list ul li a.page_link.docx, #dialog_main #resource_file_area .pages_list ul li a.page_link.pages {
+  background-image: url(/assets/refinery/icons/doc.png);
+}
+
+/* line 712, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.files .record .title.ppt, #records.files .record .title.keynote, #dialog_main #resource_file_area .pages_list ul li a.page_link.ppt, #dialog_main #resource_file_area .pages_list ul li a.page_link.keynote {
+  background-image: url(/assets/refinery/icons/ppt.png);
+}
+
+/* line 715, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.files .record .title.xls, #records.files .record .title.numbers, #dialog_main #resource_file_area .pages_list ul li a.page_link.xls, #dialog_main #resource_file_area .pages_list ul li a.page_link.numbers {
+  background-image: url(/assets/refinery/icons/xls.png);
+}
+
+/* line 718, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.files .record .title.zip, #records.files .record .title.rar, #dialog_main #resource_file_area .pages_list ul li a.page_link.zip, #dialog_main #resource_file_area .pages_list ul li a.page_link.rar {
+  background-image: url(/assets/refinery/icons/zip.png);
+}
+
+/* line 721, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.files .record .title.mp3, #records.files .record .title.wav, #records.files .record .title.aiff, #records.files .record .title.m4a, #dialog_main #resource_file_area .pages_list ul li a.page_link.mp3, #dialog_main #resource_file_area .pages_list ul li a.page_link.wav, #dialog_main #resource_file_area .pages_list ul li a.page_link.aiff, #dialog_main #resource_file_area .pages_list ul li a.page_link.m4a {
+  background-image: url(/assets/refinery/icons/music.png);
+}
+
+/* line 724, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records .actions {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 120px;
+  text-align: right;
+  display: block;
+  line-height: 28px;
+}
+
+/* line 733, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree.icons .title {
+  display: block;
+  margin: 0 120px 0 20px;
+}
+/* line 737, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree.icons .title.toggle {
+  cursor: pointer;
+}
+
+/* line 741, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree .actions {
+  line-height: 22px;
+  top: 1px;
+}
+
+/* line 745, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.published {
+  width: 25px;
+  text-align: center;
+}
+
+/* line 749, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content #records.tree > ul li .actions a {
+  margin: 3px 3px 0px 3px;
+  line-height: 24px;
+}
+
+/* line 753, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.actions a * {
+  padding: 4px 4px 1px 4px;
+}
+
+/* line 756, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.actions a img {
+  vertical-align: middle;
+  padding: 2px 4px 4px 4px;
+}
+
+/* line 760, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree .actions a img {
+  padding-top: 4px;
+}
+
+/* line 763, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree li span.icon {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin: 3px 3px 0 0;
+  background: url(/assets/refinery/icons/page.png) center center no-repeat;
+}
+/* line 771, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree li span.icon.toggle {
+  cursor: pointer;
+  background-image: url(/assets/refinery/icons/folder.png);
+}
+/* line 775, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree li span.icon.toggle.expanded {
+  background-image: url(/assets/refinery/icons/folder_open.png);
+}
+
+/* line 779, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records.tree li.loading > div > span.icon {
+  background-image: url(/assets/refinery/icons/ajax-loader.gif) !important;
+}
+
+/* line 782, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#image_grid .actions a img {
+  padding: 4px 4px 1px 4px;
+  vertical-align: top;
+}
+
+/* line 786, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.actions a:hover {
+  color: #E6E5DC;
+  background: #3F3E3A;
+}
+
+/* line 790, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.actions a.cancel {
+  color: #AF0027;
+}
+
+/* line 793, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.actions a.cancel:hover {
+  color: white;
+  background: #AF0027;
+}
+
+/* line 797, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.actions a.reorder_anchor:hover {
+  background: inherit !important;
+  cursor: move;
+}
+
+/* line 801, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#other_records {
+  width: 68%;
+}
+
+/* line 804, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#common_actions {
+  margin: 0;
+  padding: 0;
+}
+/* line 807, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#common_actions li {
+  margin: 0;
+  list-style: none;
+  padding: 5px 0px 5px 0px;
+}
+/* line 812, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#common_actions a {
+  font-weight: bold;
+}
+
+/* line 816, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.larger {
+  font-size: 200%;
+}
+
+/* line 819, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.brown_border {
+  border: 1px solid #99998B;
+}
+
+/* line 822, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#inquiry, .inquiry {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* line 826, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#inquiry td, .inquiry td {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 7px;
+}
+
+/* line 830, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#inquiry tr:last-child td, .inquiry tr:last-child td {
+  border-bottom: 0px;
+}
+
+/* line 833, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#inquiry td label.stripped, .inquiry td label.stripped {
+  font-weight: bold;
+}
+
+/* line 836, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+body.dialog {
+  background: #FFF;
+}
+
+/* line 839, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+body.dialog, body.visual_editor_dialog {
+  text-align: left;
+}
+
+/* line 842, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+body.dialog form {
+  width: 100% !important;
+}
+
+/* line 845, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.visual_editor_dialog_table {
+  height: 250px;
+}
+
+/* line 849, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #dialog_main {
+  float: left;
+  margin-left: 130px;
+  min-height: 405px;
+  width: 696px;
+}
+/* line 855, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog span.radio {
+  display: block;
+  line-height: 18px;
+  padding: 6px 0px;
+}
+/* line 860, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog span.radio * {
+  cursor: pointer;
+  font-weight: bold;
+}
+/* line 864, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #dialog_menu_left {
+  position: fixed;
+  left: 12px;
+  top: 9px;
+  width: 130px;
+}
+/* line 870, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_content {
+  position: relative;
+  height: 300px;
+  padding: 12px;
+}
+/* line 875, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_area_content {
+  margin-top: 28px;
+}
+/* line 877, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_area_content ul {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 880, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_area_content ul li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px 2px 0px 0px;
+  float: left;
+  height: 114px;
+  max-height: 114px;
+  width: 114px;
+  max-width: 114px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 893, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_area_content ul li img {
+  border: 4px solid transparent;
+}
+/* line 896, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_area_content ul li.selected img {
+  border: 4px solid #22A7F2;
+}
+/* line 902, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_size_area {
+  margin-top: 18px;
+}
+/* line 904, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_size_area ul {
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+}
+/* line 907, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_size_area ul li {
+  float: left;
+  list-style: none;
+  margin: 0px 18px 0px 0px;
+  text-align: center;
+}
+/* line 912, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_size_area ul li a {
+  display: block;
+  border: 1px solid #999999;
+  font-size: 10px;
+}
+/* line 918, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_size_area ul li.selected a {
+  border-color: #22A7F2;
+  background: #22A7F2;
+  color: white;
+  font-weight: bold;
+}
+/* line 929, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_size_area #image_dialog_size_0 a {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+/* line 930, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_size_area #image_dialog_size_1 a {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin-top: 0px;
+}
+/* line 931, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_size_area #image_dialog_size_2 a {
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  margin-top: -10px;
+}
+/* line 932, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #existing_image_size_area #image_dialog_size_3 a {
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+  margin-top: -20px;
+}
+/* line 934, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog #content {
+  padding: 0px;
+}
+
+/* line 938, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#upload_image_area, #upload_resource_area {
+  padding: 12px;
+}
+
+/* line 941, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.visual_editor_dialog #page {
+  width: 940px;
+  padding: 6px;
+}
+
+/* line 946, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pagination {
+  margin: 0px;
+  position: fixed;
+  bottom: 5px;
+  right: 12px;
+  z-index: 1000;
+}
+/* line 953, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list {
+  width: 100%;
+  padding-bottom: 40px;
+}
+/* line 956, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list ul {
+  margin: 0px 12px 0px 12px;
+  padding: 0px;
+}
+/* line 959, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list ul li {
+  cursor: pointer;
+  line-height: 24px;
+  list-style: none;
+}
+/* line 963, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list ul li a {
+  display: block;
+  padding: 3px 3px 3px 27px;
+  text-decoration: none;
+  border-bottom: none;
+  border: 1px solid transparent;
+}
+/* line 970, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list ul li:hover {
+  background-color: #C9DAE2;
+}
+/* line 974, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list ul li.child a {
+  padding-left: 27px;
+}
+/* line 977, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list ul li.child1 a {
+  padding-left: 47px;
+}
+/* line 980, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list ul li.child2 a {
+  padding-left: 67px;
+}
+/* line 983, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list ul li.child3 a {
+  padding-left: 87px;
+}
+/* line 986, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list ul li.child4 a {
+  padding-left: 107px;
+}
+/* line 991, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .actions {
+  margin-right: 48px;
+}
+/* line 994, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list .linked a, #dialog_main .pages_list .linked a:hover {
+  border: 1px solid #00A017;
+  color: #00A017;
+  background: 7px 7px no-repeat url(/assets/refinery/icons/accept.png) #e0f5e0;
+}
+/* line 999, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main .pages_list .linked a em {
+  color: #00A017;
+}
+/* line 1002, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_main #web_address_area, #dialog_main #dialog_main #email_address_area {
+  padding: 12px;
+}
+
+/* line 1006, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#link_title {
+  margin-top: 12px;
+}
+/* line 1008, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#link_title label {
+  margin: 3px 0px 0px 0px !important;
+  width: 130px;
+  display: block;
+  float: left;
+}
+/* line 1014, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#link_title input {
+  width: 770px;
+}
+
+/* line 1018, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#menu.reordering_menu li a {
+  cursor: move;
+}
+
+/* line 1021, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#search {
+  border: 1px solid #b3b3b3;
+  line-height: 18px;
+  padding: 2px;
+  font-size: 16px;
+  width: 10em;
+}
+
+/* line 1028, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.cancel-search {
+  float: right;
+}
+
+/* line 1031, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pt-BR #search {
+  width: 107px;
+}
+
+/* line 1034, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.en #search {
+  width: 130px;
+}
+
+/* line 1037, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.search_form {
+  position: relative;
+}
+/* line 1039, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.search_form .button, .search_form .button-wrapper {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+}
+
+/* line 1045, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+form input[type=submit]:hover {
+  background: #65c3f7;
+}
+
+/* line 1048, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 1055, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* Hide from IE Mac \*/
+/* line 1057, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.clearfix {
+  display: block;
+}
+
+/* End hide from IE Mac */
+/*
+Firefox Dotted Line Fix
+  - http://sonspring.com/journal/removing-dotted-links
+*/
+/* line 1063, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+a:focus {
+  outline: none;
+}
+
+/* line 1066, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+a img {
+  border: 0px none;
+}
+
+/* icons */
+/* line 1070, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.add_icon {
+  background-image: url(/assets/refinery/icons/add.png);
+}
+
+/* line 1071, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.delete_icon {
+  background-image: url(/assets/refinery/icons/delete.png);
+}
+
+/* line 1072, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.edit_icon {
+  background-image: url(/assets/refinery/icons/application_edit.png);
+}
+
+/* line 1073, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.reorder_icon {
+  background-image: url(/assets/refinery/icons/arrow_up_down.png);
+}
+
+/* line 1074, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.reorder_icon.loading {
+  background-image: url(/assets/refinery/icons/ajax-loader.gif);
+}
+
+/* line 1075, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.user_comment_icon {
+  background-image: url(/assets/refinery/icons/user_comment.png);
+}
+
+/* line 1076, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.edit_email_icon {
+  background-image: url(/assets/refinery/icons/email_edit.png);
+}
+
+/* line 1077, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.spam_icon {
+  background-image: url(/assets/refinery/icons/bin.png);
+}
+
+/* line 1078, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.spam_empty_icon {
+  background-image: url(/assets/refinery/icons/bin_closed.png);
+}
+
+/* line 1079, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.email_icon {
+  background-image: url(/assets/refinery/icons/email.png);
+}
+
+/* line 1080, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.back_icon {
+  background-image: url(/assets/refinery/icons/arrow_left.png);
+}
+
+/* line 1081, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.go_icon {
+  background-image: url(/assets/refinery/icons/application_go.png);
+}
+
+/* line 1082, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.success_icon {
+  background-image: url(/assets/refinery/icons/tick.png);
+  padding: 0px 8px;
+}
+
+/* line 1083, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.failure_icon {
+  background-image: url(/assets/refinery/icons/cross.png);
+  padding: 0px 8px;
+}
+
+/* page parts */
+/* line 1085, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#page_parts {
+  float: left;
+  width: 92%;
+}
+
+/* line 1089, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#page_parts, ul#page_parts_controls {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+/* line 1093, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#page_parts_controls {
+  float: right;
+  margin-right: 3px;
+}
+
+/* line 1097, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#page_parts_controls li {
+  list-style: none;
+  float: right;
+  margin: 12px 3px 0px 3px;
+}
+
+/* line 1102, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#page_parts_controls li a {
+  border: 0px none;
+}
+
+/* line 1105, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#page_parts_controls img {
+  vertical-align: middle;
+}
+
+/* line 1109, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#page-tabs.ui-sortable.reordering li {
+  cursor: move;
+}
+/* line 1111, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#page-tabs.ui-sortable.reordering li a {
+  cursor: move;
+}
+
+/* line 1116, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#page_part_editors {
+  clear: left;
+}
+
+/* line 1119, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+a#toggle_advanced_options {
+  background: url(/assets/refinery/icons/page_white_gear.png) no-repeat 0px 3px;
+  padding: 5px 5px 5px 22px;
+  border-bottom: none;
+}
+
+/* line 1124, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+a#toggle_advanced_options:hover {
+  border-bottom: 1px dotted #727272;
+}
+
+/* dialog stuff */
+/* line 1128, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_frame {
+  width: 952px;
+  height: 460px;
+  padding: 0px;
+  border: 0px solid #F2F1ED;
+}
+
+/* line 1134, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.visual_editor_hideables {
+  display: none;
+}
+
+/* line 1137, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .form-actions, .wym_dialog .form-actions, .ui-dialog .form-actions {
+  position: relative;
+  background-color: #F2F2F2;
+  border: 1px solid #CCCCCC;
+  margin-top: 10px;
+  height: 45px;
+}
+
+/* line 1140, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog form {
+  margin-bottom: 45px;
+}
+
+/* line 1143, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.dialog .dialog_area > div > .field label:first-child, .dialog .dialog_area > div > label:first-child {
+  margin-top: 0px;
+}
+
+/* line 1146, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.visual_editor_dialog .form-actions, #content.form-actions.dialog-form-actions, .ui-dialog .form-actions {
+  margin-top: 16px;
+}
+
+/* line 1151, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .form-actions .form-actions-left, #content .form-actions .form-actions-right,
+.visual_editor_dialog .form-actions .form-actions-left, .visual_editor_dialog .form-actions .form-actions-right,
+.ui-dialog .form-actions .form-actions-left, .ui-dialog .form-actions .form-actions-right {
+  position: absolute;
+  top: 10px;
+}
+
+/* line 1155, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .form-actions .form-actions-left, .visual_editor_dialog .form-actions .form-actions-left, .ui-dialog .form-actions .form-actions-left {
+  left: 10px;
+}
+
+/* line 1158, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .form-actions .form-actions-right, .visual_editor_dialog .form-actions .form-actions-right, .ui-dialog .form-actions .form-actions-right {
+  right: 10px;
+}
+
+/* line 1161, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .form-actions .save-loader {
+  position: absolute;
+  right: -24px;
+  top: 4px;
+}
+
+/* line 1166, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.visual_editor_dialog .form-actions, .ui-dialog .form-actions {
+  border: 0px none;
+  border-top: 1px solid #E8E8E8;
+}
+
+/* line 1170, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_iframe {
+  position: relative;
+}
+
+/* line 1173, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_container #content .form-actions, .ui-dialog .form-actions, .dialog_container .form-actions {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  width: auto;
+}
+
+/* line 1183, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_container.dialog.iframed #content .form-actions {
+  position: fixed;
+}
+
+/* line 1186, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+body.dialog #content .search_form {
+  float: right;
+  width: auto !important;
+  min-width: 300px;
+  margin-bottom: 0px;
+}
+
+/* line 1192, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#existing_image_area {
+  padding-top: 6px;
+}
+
+/* line 1195, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ui-dialog div.field {
+  margin: 0px 10px;
+}
+
+/* line 1198, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#dialog_container, .dialog_container {
+  margin: 0px;
+  padding: 12px;
+}
+
+/* line 1202, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#image_grid, .pagination_container > ul#image_grid {
+  width: 100%;
+  padding: 0px;
+  margin: 10px 0px 15px 0px;
+}
+
+/* line 1207, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#image_grid li, .pagination_container > ul#image_grid li {
+  position: relative;
+  float: left;
+  margin: 0px 7px 12px 0px;
+  padding: 0px;
+  width: 124px;
+  text-align: center;
+  height: 165px;
+  overflow: hidden;
+  max-width: 124px;
+  max-height: 165px;
+}
+
+/* line 1219, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#image_grid li.image_4 {
+  margin-left: 1px;
+  margin-right: 0px;
+}
+
+/* line 1223, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records ul#image_grid li .actions {
+  top: auto;
+  bottom: 0px;
+}
+
+/* line 1227, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#records ul#image_grid li .actions a {
+  line-height: 24px;
+}
+
+/* line 1230, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#image_grid li.row-end {
+  margin-right: 0px;
+  float: right;
+}
+
+/* line 1234, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#image_grid li a {
+  border: 0 none;
+}
+
+/* line 1237, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#image_grid li p {
+  margin: 3px 0;
+}
+
+/* line 1240, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul#image_grid li span.actions {
+  width: 100%;
+}
+
+/* line 1243, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul.checkboxes {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 1247, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+ul.checkboxes li {
+  list-style: none;
+}
+
+/* line 1250, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label_inline_with_link label {
+  float: left;
+  margin-right: 6px;
+}
+
+/* line 1254, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label_inline_with_link a {
+  border: 0px none;
+  margin-top: 19px;
+  line-height: 17px;
+  float: left;
+}
+
+/* line 1260, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label_inline_with_link a img {
+  vertical-align: middle;
+}
+
+/* line 1263, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.remove_picked_image {
+  margin-top: 8px;
+  display: inline-block;
+  width: auto;
+}
+
+/* line 1268, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#new_page_part_dialog .field {
+  padding: 0px 10px;
+}
+
+/* line 1271, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.hide-overflow {
+  overflow: hidden;
+}
+
+/* line 1274, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#remove_resource {
+  margin-top: 8px;
+  display: inline-block;
+  width: auto;
+}
+
+/**** Tooltip Icons *****/
+/* line 1280, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.tooltip {
+  background: #22a7f2;
+  border: 1px solid #1b82bd;
+  word-wrap: break-word;
+  position: relative;
+}
+/* line 1285, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.tooltip span {
+  display: block;
+  padding: 10px;
+  border: 1px solid #62c1f6;
+}
+
+/* line 1291, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.tooltip-nib {
+  position: absolute;
+  z-index: 10001;
+}
+
+/* line 1295, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.tooltip, .tooltip * {
+  color: white;
+}
+
+/* line 1298, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.visual_editor_dialog_paste .field textarea {
+  width: 98%;
+}
+
+/* line 1301, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ui-dialog .visual_editor_dialog_paste .field, .ui-dialog .visual_editor_dialog_paste .field textarea {
+  margin: 0px 0px 45px 0px;
+  height: 300px;
+}
+
+/* line 1305, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+input.button, a.button, #content a.button, span.button-wrapper, span.button-wrapper input {
+  cursor: pointer;
+  background: #22a7f2;
+  color: white;
+  padding: 0px 14px 0px 14px;
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+  display: inline-block;
+  border: 0px none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* for those pesky IE browsers */
+/* line 1319, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+span.button-wrapper {
+  padding: 0px;
+}
+
+/* line 1322, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+span.button-wrapper input {
+  display: inherit;
+}
+
+/* fixes firefox display */
+/* line 1326, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+input.button {
+  padding-bottom: 3px;
+}
+
+/* line 1329, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+input.button.close_dialog, a.button.close_dialog, #content a.button.close_dialog, span.button-wrapper.close_dialog, span.button-wrapper.close_dialog input {
+  background: #bcbcbc;
+}
+
+/* line 1332, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+input.button:hover, a.button:hover, #content a.button:hover, span.button-wrapper:hover, span.button-wrapper:hover input {
+  background: #62bef2;
+}
+
+/* line 1335, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+input.button.close_dialog:hover, a.button.close_dialog:hover, #content a.button.close_dialog:hover, span.button-wrapper.close_dialog:hover {
+  background: #cdcdcd;
+}
+
+/* line 1338, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+input.button:active, a.button:active, #content a.button:active, span.button-wrapper:active, span.button-wrapper:active input {
+  background: #004a8f;
+}
+
+/* line 1341, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+input.button.close_dialog:active, a.button.close_dialog:active, #content a.button.close_dialog:active, span.button-wrapper.close_dialog:active, span.button-wrapper.close_dialog:active input {
+  background: #808080;
+}
+
+/* line 1344, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.visual_editor_dialog a.button.visual_editor_cancel.close_dialog {
+  margin-left: 6px;
+}
+
+/* line 1347, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content a.button.close_dialog:active {
+  color: white;
+}
+
+/* line 1350, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.form-actions a.confirm-delete, #content .form-actions a.confirm-delete {
+  background: #ee1100;
+  position: absolute;
+  right: 0px;
+}
+
+/* line 1355, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.form-actions a.confirm-delete:hover, #content .form-actions a.confirm-delete:hover {
+  background: #ff3322;
+}
+
+/* line 1358, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.form-actions a.confirm-delete:active, #content .form-actions a.confirm-delete:active {
+  background: #bb0000;
+}
+
+/* line 1361, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.field input[type=text], .field input[type=password], .field input[type=email], .field input[type=tel], .field input[type=number], .field textarea {
+  border: 1px solid #7f9db9;
+  padding: 0.4% 0.5%;
+  line-height: 20px;
+}
+
+/* ## Advanced Page Options --------------------------------------------- */
+/* line 1367, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#more_options {
+  overflow: hidden;
+}
+
+/* line 1370, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.hemisquare {
+  padding: 10px;
+  margin: 0px 0px;
+  margin-left: 10px;
+  float: left;
+  width: 45%;
+}
+/* line 1376, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.hemisquare.right_side {
+  float: right;
+}
+/* line 1379, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.hemisquare input, .hemisquare textarea, .hemisquare select {
+  margin: 7px 0px;
+}
+/* line 1382, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.hemisquare textarea {
+  margin-bottom: 0px;
+}
+/* line 1385, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.hemisquare label {
+  margin: 0px;
+}
+/* line 1388, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.hemisquare small {
+  font-size: 0.9em;
+}
+
+/* line 1392, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .hemisquare h2 {
+  margin-top: 0px;
+}
+
+/* line 1395, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content .hemisquare .field {
+  margin: 0 0 20px 0px;
+  width: 98%;
+}
+
+/* line 1399, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label_with_help {
+  vertical-align: middle;
+}
+
+/* line 1402, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label_with_help label, .label_with_help span.help, .label_with_help img.help {
+  display: inline;
+}
+
+/* line 1405, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label_with_help img.help {
+  vertical-align: middle;
+}
+
+/* line 1408, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label_with_help span.help {
+  font-weight: normal;
+  margin-left: 3px;
+  border-bottom: 1px dotted #727272;
+  cursor: help;
+}
+
+/* line 1414, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#more_options_field {
+  position: relative;
+}
+
+/* line 1418, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.nothing_selected {
+  border-bottom: 1px dotted #727272;
+  width: auto;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+/* line 1424, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.nothing_selected:hover {
+  border-bottom: 1px solid #727272;
+}
+
+/* line 1427, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#upgrade_wrapper li a {
+  line-height: 20px;
+}
+
+/* Locale picker */
+/* line 1433, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#switch_locale_picker {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 1436, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#switch_locale_picker li {
+  float: left;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+}
+/* line 1441, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#switch_locale_picker li a {
+  background-color: #cdcdcd;
+  background-position: 12px;
+  background-repeat: no-repeat;
+  border-bottom: 0;
+  border-right: solid 1px white;
+  margin-bottom: 1px;
+  display: block;
+  padding: 3px 14px 3px 9px;
+  line-height: 0;
+}
+/* line 1451, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#switch_locale_picker li a:hover {
+  background-color: #cae7fb;
+}
+/* line 1454, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#switch_locale_picker li a:active {
+  background-color: #22A7F2;
+}
+/* line 1458, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#switch_locale_picker li:first-child a {
+  border-radius-left: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+}
+/* line 1465, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#switch_locale_picker li:last-child a {
+  border-radius-right: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+}
+/* line 1472, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#switch_locale_picker li.selected a {
+  background-color: #65c3f7;
+}
+
+/* line 1478, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#locale_picker li {
+  list-style: none;
+  margin: 0;
+}
+/* line 1481, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#locale_picker li a {
+  background-color: #cdcdcd;
+  background-position: 12px;
+  background-repeat: no-repeat;
+  border: 0;
+  border-bottom: solid 1px white;
+  display: block;
+  padding: 3px 14px 3px 9px;
+  position: relative;
+}
+/* line 1490, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#locale_picker li a:hover {
+  background-color: #cae7fb;
+}
+/* line 1493, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#locale_picker li a:active {
+  background-color: #22A7F2;
+}
+/* line 1496, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#locale_picker li a span.action {
+  border-bottom: 1px dotted #727272;
+  position: absolute;
+  right: 9px;
+  top: 5px;
+}
+/* line 1503, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#locale_picker li:first-child a {
+  border-radius-top: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+}
+/* line 1510, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#locale_picker li:last-child a {
+  border-radius-bottom: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+}
+/* line 1519, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#locale_picker #current_locale,
+#locale_picker #other_locales {
+  margin: 0;
+}
+/* line 1523, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#locale_picker #current_locale li a {
+  background-color: #65c3f7;
+}
+
+/* line 1528, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.locale_icon {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-right: 3px;
+  padding-top: 1px;
+}
+/* line 1537, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.locale_icon span.code {
+  display: block;
+  position: absolute;
+  border: 0;
+  top: 12px;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80%;
+  line-height: 8px;
+}
+
+/* line 1554, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+#content #records .title .preview a.locale {
+  border-bottom: 0px none;
+}
+
+/* AJAX pagination */
+/* line 1558, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination_container {
+  position: relative;
+}
+
+/* line 1561, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination_frame {
+  padding: 0;
+  width: 100%;
+  right: auto;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 1570, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination_container > div.pagination_frame {
+  top: 40px;
+}
+
+/* line 1573, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination_frame.frame_left {
+  left: -3000px;
+}
+
+/* line 1576, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination_frame.frame_right {
+  left: 3000px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 1583, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination_frame.frame_center {
+  left: 0;
+}
+
+/* line 1586, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.pagination_frame li {
+  position: relative;
+  padding-left: 5px;
+}
+
+/* line 1590, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+a.information:hover {
+  background: #22a7f2;
+}
+
+/* dubiously in here */
+/* line 1594, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.current_image_link {
+  display: inline-block;
+  width: auto;
+}
+
+/* line 1598, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label {
+  padding: 1px 3px 2px;
+  font-size: 9.75px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #bfbfbf;
+}
+
+/* line 1607, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label.important {
+  background-color: #c43c35;
+}
+
+/* line 1610, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label.warning {
+  background-color: #f89406;
+}
+
+/* line 1613, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label.success {
+  background-color: #46a546;
+}
+
+/* line 1616, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label.notice {
+  background-color: #62cffc;
+}
+
+/* line 1620, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label {
+  padding: 1px 3px 2px;
+  font-size: 9.75px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #bfbfbf;
+}
+
+/* line 1629, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label.important {
+  background-color: #c43c35;
+}
+
+/* line 1632, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label.warning {
+  background-color: #f89406;
+}
+
+/* line 1635, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label.success {
+  background-color: #46a546;
+}
+
+/* line 1638, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.label.notice {
+  background-color: #62cffc;
+}
+
+/* Internet Explorer to follow: */
+/* IE 7 */
+/* line 1644, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ie7 #content .form-actions .form-actions-left a.button {
+  height: 19px;
+  line-height: 19px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* line 1650, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ie7 .search_form input.button {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 1654, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ie7 body.login .field input.larger, .ie7 body.login .field input.larger:focus {
+  background-image: none !important;
+  padding: 0px;
+  line-height: 30px;
+}
+
+/* line 1659, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ie7 .pagination a, .ie7 #content .pagination a, .ie7 .pagination .current, .ie7 .disabled, .ie7 .pagination em {
+  padding-bottom: 6px;
+}
+
+/* line 1662, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ie7 .pt-BR #search {
+  width: 97px;
+}
+
+/* line 1665, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ie7 .en #search {
+  width: 170px;
+}
+
+/* IE 8 */
+/* line 1669, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ie8 body.login .field input.larger, .ie8 body.login .field input.larger:focus {
+  line-height: 30px;
+}
+
+/* line 1672, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/layout.css.scss */
+.ie8 .pagination a, .ie8 #content .pagination a, .ie8 .pagination .current, .ie8 .disabled, .ie8 .pagination em {
+  padding-bottom: 6px;
+}
+/* line 1, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar {
+  background: #606060;
+  background: -moz-linear-gradient(top, #909090 0%, #606060 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #909090), color-stop(100%, #606060));
+  background: -webkit-linear-gradient(top, #909090 0%, #606060 100%);
+  background: -o-linear-gradient(top, #909090 0%, #606060 100%);
+  background: -ms-linear-gradient(top, #909090 0%, #606060 100%);
+  background: linear-gradient(to bottom, #909090 0%, #606060 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#909090', endColorstr='#606060', GradientType=0 );
+}
+/* line 11, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content {
+  color: white;
+  font-family: Arial;
+  font-size: 0.9em;
+  font-weight: normal;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0.8em 0.8em 0.5em;
+  zoom: 1;
+}
+/* line 22, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content:before, #site_bar #site_bar_content:after {
+  content: "";
+  display: table;
+}
+/* line 23, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content:after {
+  clear: both;
+}
+/* line 25, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content a {
+  color: white;
+  text-decoration: none;
+}
+/* line 29, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content a:hover {
+  text-decoration: underline;
+}
+/* line 34, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content #editor_switch {
+  text-align: center;
+}
+@media screen and (min-width: 37.5em) {
+  /* line 34, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+  #site_bar #site_bar_content #editor_switch {
+    text-align: left;
+  }
+}
+/* line 41, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content #editor_switch a {
+  background: #ff8951;
+  background: -moz-linear-gradient(top, #ff8951 0%, #d14808 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff8951), color-stop(100%, #d14808));
+  background: -webkit-linear-gradient(top, #ff8951 0%, #d14808 100%);
+  background: -o-linear-gradient(top, #ff8951 0%, #d14808 100%);
+  background: -ms-linear-gradient(top, #ff8951 0%, #d14808 100%);
+  background: linear-gradient(to bottom, #ff8951 0%, #d14808 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff8951', endColorstr='#d14808', GradientType=0 );
+  border: 1px solid #fca87f;
+  border-bottom: 0px none;
+  display: inline-block;
+  margin-right: 0.3em;
+  margin-bottom: 0.5em;
+  padding: 0.15em 1em 0.25em;
+}
+/* line 57, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content #editor_switch a:hover {
+  background: #d14908;
+  text-decoration: none;
+}
+/* line 64, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content #site_bar_refinery_cms_logo {
+  background: url(/assets/refinery/logo-site-bar.png) no-repeat 0 100%;
+  display: none;
+  height: 29px;
+  overflow: hidden;
+  margin-top: -2px;
+  position: relative;
+  width: 96px;
+}
+@media screen and (min-width: 58em) {
+  /* line 64, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+  #site_bar #site_bar_content #site_bar_refinery_cms_logo {
+    display: block;
+  }
+}
+/* line 77, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content #site_bar_refinery_cms_logo span {
+  position: absolute;
+  left: -1000em;
+}
+/* line 83, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content #site_bar_branding {
+  display: block;
+  text-align: center;
+  margin-top: 0.5em;
+}
+@media screen and (min-width: 37.5em) {
+  /* line 83, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+  #site_bar #site_bar_content #site_bar_branding {
+    margin-top: 0.25em;
+    text-align: right;
+  }
+}
+/* line 93, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content #site_bar_branding #site_bar_company_name {
+  display: block;
+  font-weight: bold;
+}
+@media screen and (min-width: 37.5em) {
+  /* line 93, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+  #site_bar #site_bar_content #site_bar_branding #site_bar_company_name {
+    display: inline-block;
+  }
+}
+/* line 102, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_content #site_bar_branding #logout {
+  display: block;
+  margin-left: 0.9em;
+}
+@media screen and (min-width: 37.5em) {
+  /* line 102, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+  #site_bar #site_bar_content #site_bar_branding #logout {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 37.5em) {
+  /* line 118, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+  #site_bar #site_bar_content #editor_switch,
+  #site_bar #site_bar_content #site_bar_branding {
+    float: left;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 58em) {
+  /* line 129, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+  #site_bar #site_bar_content #editor_switch {
+    width: 50%;
+  }
+  /* line 133, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+  #site_bar #site_bar_content #site_bar_branding {
+    width: 38%;
+  }
+  /* line 137, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/site_bar.css.scss */
+  #site_bar #site_bar_content #site_bar_refinery_cms_logo {
+    float: left;
+    width: 12%;
+  }
+}
+/* line 1, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-widget-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: auto !important;
+  opacity: .75 !important;
+  filter: Alpha(Opacity=75) !important;
+  background: #000 !important;
+}
+
+/* line 12, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  border: 4px solid #22A7F2;
+  width: auto;
+  z-index: 1;
+}
+/* line 19, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog #dialog_loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 208px;
+  height: 13px;
+  margin: -6px 0 0 -104px;
+}
+/* line 27, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog .ui-dialog-titlebar {
+  position: relative;
+  width: 100%;
+  height: 33px;
+  background-color: #22A7F2;
+}
+/* line 33, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog .ui-dialog-title {
+  float: left;
+  height: 33px;
+  line-height: 33px;
+  font-size: 16px;
+  padding-left: 10px;
+  color: white;
+}
+/* line 41, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog .ui-dialog-titlebar-close {
+  background-color: #22A7F2;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 5px;
+  position: absolute;
+  right: 10px;
+  width: 22px;
+  height: 33px;
+  line-height: 33px;
+  border: none;
+}
+/* line 52, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog .ui-dialog-titlebar-close span {
+  display: block;
+  margin: 1px;
+  background: transparent url(/assets/refinery/cross.png) top left no-repeat;
+  text-indent: -10000px;
+}
+/* line 59, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus {
+  padding: 0;
+}
+/* line 62, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog iframe {
+  clear: both;
+  border: 0px none;
+  margin-bottom: -1px;
+  margin-top: 1px;
+  width: 100% !important;
+}
+
+/** Hide the tab without using display:none; This is required to hide flash embeds etc.**/
+/* line 71, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-tabs-hide {
+  display: block !important;
+  height: 0 !important;
+  width: 0 !important;
+  border: 0px none !important;
+  visibility: hidden !important;
+  position: absolute;
+  left: -10000px;
+  top: -10000px;
+}
+/* line 81, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-tabs-hide object,
+.ui-tabs-hide embed {
+  height: 0px !important;
+  width: 0px !important;
+}
+
+/* line 86, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ie7 .ui-tabs-hide {
+  display: none !important !important;
+  height: auto !important !important;
+  width: auto !important !important;
+  position: static;
+}
+
+/* line 92, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-tabs li.ui-state-default {
+  float: left;
+  list-style: none;
+  margin-right: 2px;
+}
+
+/* line 97, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-tabs .ui-state-default a {
+  background-color: #bcbcbc;
+  color: white;
+  padding: 8px 13px;
+  border-bottom: none;
+  display: block;
+  margin-top: 6px;
+}
+
+/* line 105, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-tabs .ui-state-active a {
+  background-color: #808080;
+  padding: 11px 13px;
+  margin-top: 0px;
+}
+
+/*
+ * Styles so Refinery admin is compatible with jquery-ui stylesheet:
+ */
+/* line 116, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#menu.ui-corner-all {
+  border: none;
+}
+/* line 120, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#menu.ui-widget {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* line 127, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs.ui-widget {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+/* line 133, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs.ui-corner-all {
+  border: none;
+}
+/* line 137, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs.ui-tabs {
+  padding: 0;
+}
+/* line 140, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs.ui-tabs .ui-tabs-panel {
+  padding: 0;
+}
+/* line 145, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs.ui-tabs .ui-tabs-nav li.ui-state-default a {
+  padding: 8px 13px;
+}
+/* line 149, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs.ui-tabs .ui-tabs-nav li.ui-state-active a {
+  padding: 11px 13px;
+}
+/* line 156, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs #page_parts.ui-corner-all {
+  border: none;
+}
+/* line 160, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs #page_parts.ui-widget-header {
+  background: none;
+}
+/* line 163, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs #page_parts.ui-widget-header .ui-state-default {
+  border: none;
+  background: none;
+  padding-bottom: 0;
+  margin: 0 2px 0 0;
+}
+/* line 171, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs #page_parts.ui-helper-reset {
+  line-height: inherit;
+}
+/* line 175, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs #page_parts .ui-tabs-anchor {
+  color: white;
+}
+/* line 181, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+#page-tabs #page_part_editors .ui-corner-bottom {
+  border: none;
+}
+
+/* line 188, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog],
+.ui-dialog[aria-describedby=dialog_iframe] {
+  outline: none;
+}
+/* line 191, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog].ui-dialog,
+.ui-dialog[aria-describedby=dialog_iframe].ui-dialog {
+  padding: 0;
+}
+/* line 195, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog].ui-corner-all,
+.ui-dialog[aria-describedby=dialog_iframe].ui-corner-all {
+  border: 4px solid #22A7F2;
+  border-radius: 0;
+}
+/* line 200, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog].ui-widget,
+.ui-dialog[aria-describedby=dialog_iframe].ui-widget {
+  font-family: inherit;
+  color: inherit;
+}
+/* line 205, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] .ui-widget-header,
+.ui-dialog[aria-describedby=dialog_iframe] .ui-widget-header {
+  background-image: none;
+}
+/* line 208, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] .ui-widget-header.ui-corner-all,
+.ui-dialog[aria-describedby=dialog_iframe] .ui-widget-header.ui-corner-all {
+  border: none;
+  border-radius: 0;
+}
+/* line 214, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] .ui-dialog-titlebar,
+.ui-dialog[aria-describedby=dialog_iframe] .ui-dialog-titlebar {
+  padding: 0;
+}
+/* line 217, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] .ui-dialog-titlebar .ui-dialog-title,
+.ui-dialog[aria-describedby=dialog_iframe] .ui-dialog-titlebar .ui-dialog-title {
+  font-weight: normal;
+}
+/* line 221, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] .ui-dialog-titlebar .ui-dialog-titlebar-close,
+.ui-dialog[aria-describedby=dialog_iframe] .ui-dialog-titlebar .ui-dialog-titlebar-close {
+  background-color: #22A7F2;
+  background-image: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  right: 10px;
+}
+/* line 229, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] .ui-dialog-titlebar .ui-dialog-titlebar-close .ui-button-text,
+.ui-dialog[aria-describedby=dialog_iframe] .ui-dialog-titlebar .ui-dialog-titlebar-close .ui-button-text {
+  display: none;
+}
+/* line 233, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] .ui-dialog-titlebar .ui-dialog-titlebar-close.ui-button-icon-only .ui-icon,
+.ui-dialog[aria-describedby=dialog_iframe] .ui-dialog-titlebar .ui-dialog-titlebar-close.ui-button-icon-only .ui-icon {
+  position: static;
+  height: 20px;
+}
+/* line 240, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] .ui-dialog-content,
+.ui-dialog[aria-describedby=dialog_iframe] .ui-dialog-content {
+  padding: 0;
+  overflow: visible;
+}
+/* line 245, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] .editor_dialog,
+.ui-dialog[aria-describedby=dialog_iframe] .editor_dialog {
+  border: none;
+}
+/* line 249, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/ui.css.scss */
+.ui-dialog[aria-describedby=editor_dialog] iframe#dialog_frame, .ui-dialog[aria-describedby=editor_dialog] iframe#dialog_iframe,
+.ui-dialog[aria-describedby=dialog_iframe] iframe#dialog_frame,
+.ui-dialog[aria-describedby=dialog_iframe] iframe#dialog_iframe {
+  display: block !important;
+}
+/* line 3, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/submenu.css.scss */
+ul.collapsible_menu li {
+  position: relative;
+}
+/* line 5, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/submenu.css.scss */
+ul.collapsible_menu li span.arrow {
+  background-repeat: no-repeat;
+  background-image: url(/assets/refinery/icons/up.gif);
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  width: 11px;
+  height: 7px;
+  cursor: pointer;
+}
+/* line 15, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/submenu.css.scss */
+ul.collapsible_menu li.closed span.arrow {
+  background-image: url(/assets/refinery/icons/down.gif);
+}
+/* line 19, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/submenu.css.scss */
+ul.collapsible_menu > div {
+  width: 93%;
+  margin: 0px auto;
+}
+/* Tooltips CSS definitions */
+/* line 3, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip {
+  position: absolute !important;
+  overflow: hidden;
+  font-size: 13px;
+  font-family: inherit;
+  z-index: 10000 !important;
+  text-align: center;
+}
+/* line 10, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xtop, .tooltip .tooltip .xbottom {
+  display: block;
+  background: transparent;
+  font-size: 1px;
+}
+/* line 11, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xb1, .tooltip .tooltip .xb2, .tooltip .tooltip .xb3, .tooltip .tooltip .xb4 {
+  display: block;
+  overflow: hidden;
+}
+/* line 12, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xb1, .tooltip .tooltip .xb2, .tooltip .tooltip .xb3 {
+  height: 1px;
+}
+/* line 13, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xb2, .tooltip .tooltip .xb3, .tooltip .tooltip .xb4 {
+  background: #606060;
+  border-left: 1px solid #606060;
+  border-right: 1px solid #606060;
+}
+/* line 14, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xbottom .xb2, .tooltip .tooltip .xbottom .xb3, .tooltip .tooltip .xbottom .xb4 {
+  background: #606060;
+}
+/* line 15, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xb1 {
+  margin: 0 5px;
+  background: #606060;
+}
+/* line 16, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xb2 {
+  margin: 0 3px;
+  border-width: 0 2px;
+}
+/* line 17, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xb3 {
+  margin: 0 2px;
+}
+/* line 18, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xb4 {
+  height: 2px;
+  margin: 0 1px;
+}
+/* line 19, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xboxcontent {
+  margin: 0;
+  color: #000;
+  word-wrap: break-word;
+  border-width: 4px 4px;
+  border-style: solid;
+  border-color: #606060;
+  background-color: white;
+  padding: 6px;
+}
+/* line 29, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip .xb1, .tooltip .xb2, .tooltip .xb3, .tooltip .xb4 {
+  border-color: #606060;
+}
+
+/* line 33, /home/joao/.rvm/gems/ruby-2.1.5/bundler/gems/refinerycms-e437b0850b0d/core/app/assets/stylesheets/refinery/tooltips.css.scss */
+.tooltip-square .xtop, .tooltip-square .xbottom {
+  display: none;
+}
