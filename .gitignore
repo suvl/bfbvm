@@ -46,6 +46,7 @@ coverage
 # Public Uploads
 public/system/*
 public/themes/*
+public/assets/*
 
 # Public Cache
 public/javascripts/cache
