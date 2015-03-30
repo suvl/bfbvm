@@ -62,5 +62,5 @@ gem 'refinerycms-i18n'
 #gem 'font-awesome-sass'
 
 # use cloudinary as a backend
-gem 'dragonfly-cloudinary', path: '/home/joao/github/dragonfly-cloudinary'
+gem 'dragonfly-cloudinary', git: 'https://github.com/suvl/dragonfly-cloudinary.git', branch: 'master'
 gem 'dragonfly-dropbox_data_store'

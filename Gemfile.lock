@@ -42,8 +42,10 @@ GIT
       dragonfly (~> 1.0.0)
       refinerycms-core (= 3.0.0)
 
-PATH
-  remote: /home/joao/github/dragonfly-cloudinary
+GIT
+  remote: https://github.com/suvl/dragonfly-cloudinary.git
+  revision: f36fb8e4c625da39075e53fbfd924f9f9bbd626a
+  branch: master
   specs:
     dragonfly-cloudinary (0.1.1)
       cloudinary (>= 1.0)
@@ -88,7 +90,7 @@ GEM
     babosa (1.0.2)
     bcrypt (3.1.10)
     builder (3.2.2)
-    cloudinary (1.0.82)
+    cloudinary (1.0.84)
       aws_cf_signer
       rest-client
     coffee-rails (4.0.1)
@@ -107,6 +109,8 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    domain_name (0.5.23)
+      unf (>= 0.0.5, < 1.0.0)
     dragonfly (1.0.7)
       addressable (~> 2.3)
       multi_json (~> 1.0)
@@ -124,6 +128,8 @@ GEM
       activemodel (>= 4.0.0, < 5)
       activerecord (>= 4.0.0, < 5)
     hike (1.2.3)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
     i18n (0.7.0)
     jbuilder (2.2.11)
       activesupport (>= 3.0.0, < 5)
@@ -179,7 +185,8 @@ GEM
       refinerycms-core (~> 3.0, >= 3.0.0)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
-    rest-client (1.7.3)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
     routing-filter (0.4.0.1)
@@ -218,6 +225,9 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.6)
     warden (1.2.3)
       rack (>= 1.0)
     will_paginate (3.0.7)
