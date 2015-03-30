@@ -148,6 +148,7 @@ GEM
     multi_json (1.11.0)
     netrc (0.10.3)
     orm_adapter (0.5.0)
+    pg (0.18.1)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -241,6 +242,7 @@ DEPENDENCIES
   dragonfly-dropbox_data_store
   jbuilder (~> 2.0)
   jquery-rails
+  pg
   quiet_assets
   rails (= 4.1.8)
   refinerycms!
