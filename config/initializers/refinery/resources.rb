@@ -28,7 +28,13 @@ Refinery::Resources.configure do |config|
 
   # Configure Dragonfly custom storage backend
   # The custom_backend setting by default defers to the core setting for this but can be set just for resources.
-  # config.custom_backend_class = nil
-  # config.custom_backend_opts = {}
+  config.custom_backend_class = "Dragonfly::DropboxDataStore"
+  config.custom_backend_opts = {
+      app_key:              '4rou8mtw7q4uitl',
+      app_secret:           'ha1awsqo9v7b0a7',
+      access_token:         'bhrh4ug4dxzfce05',
+      access_token_secret:  '34f3geu35sr7q7k',
+      user_id:              '5080121'
+  }
 
 end

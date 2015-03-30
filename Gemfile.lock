@@ -42,6 +42,14 @@ GIT
       dragonfly (~> 1.0.0)
       refinerycms-core (= 3.0.0)
 
+PATH
+  remote: /home/joao/github/dragonfly-cloudinary
+  specs:
+    dragonfly-cloudinary (0.1.1)
+      cloudinary (>= 1.0)
+      dragonfly (>= 0.9)
+      rake (>= 0.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -103,10 +111,11 @@ GEM
       addressable (~> 2.3)
       multi_json (~> 1.0)
       rack
-    dragonfly-cloudinary (0.1.1)
-      cloudinary (>= 1.0)
-      dragonfly (>= 0.9)
-      rake (>= 0.9)
+    dragonfly-dropbox_data_store (0.0.1)
+      dragonfly (~> 1.0)
+      dropbox-sdk (~> 1.6)
+    dropbox-sdk (1.6.4)
+      json
     erubis (2.7.0)
     execjs (2.4.0)
     friendly_id (5.1.0)
@@ -218,7 +227,8 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  dragonfly-cloudinary
+  dragonfly-cloudinary!
+  dragonfly-dropbox_data_store
   jbuilder (~> 2.0)
   jquery-rails
   quiet_assets

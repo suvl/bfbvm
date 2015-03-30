@@ -1,0 +1,23 @@
+pt:
+  refinery:
+    admin:
+      images:
+        form:
+          image_title: Título
+          image_title_help: Título da imagem
+          image_alt: Texto alternativo
+          image_alt_help: Texto alternativo caso a imagem não esteja disponível
+      locale_picker:
+          language: língua
+    users:
+      reset:
+        code_invalid: código inválido
+    site_bar_helper:
+      switch_to_your_website: Regressar ao site
+      switch_to_your_website_editor: Regressar ao editor
+  delete: apagar
+  message: mensagem
+  view_live_html: ver resultado ao vivo
+  edit: editar
+  created: criado
+  welcome: bem-vindo
