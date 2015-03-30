@@ -65,3 +65,5 @@ gem 'refinerycms-i18n'
 # use cloudinary as a backend
 gem 'dragonfly-cloudinary', git: 'https://github.com/suvl/dragonfly-cloudinary.git', branch: 'master'
 gem 'dragonfly-dropbox_data_store'
+
+gem 'puma'
