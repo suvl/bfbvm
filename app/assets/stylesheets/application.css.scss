@@ -95,6 +95,9 @@ body {
     margin-right: 10%;
     margin-top: 90px;
     max-width: 600px;
+    img {
+      max-width: 100%;
+    }
   }
 
   > .container-home {
@@ -238,6 +241,14 @@ body {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     color: #fff;
   }
+
+  .body-container {
+    > .right-container {
+      margin-right: 0;
+      width: 90vw;
+    }
+  }
+
 
 }
 

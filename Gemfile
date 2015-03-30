@@ -66,4 +66,4 @@ gem 'refinerycms-i18n'
 gem 'dragonfly-cloudinary', git: 'https://github.com/suvl/dragonfly-cloudinary.git', branch: 'master'
 gem 'dragonfly-dropbox_data_store'
 
-gem 'puma'
+gem 'puma', :group => :production
