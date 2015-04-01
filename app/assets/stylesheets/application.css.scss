@@ -247,8 +247,6 @@ body {
       width: 90vw;
     }
   }
-
-
 }
 
 .navbar-default h4
@@ -266,6 +264,18 @@ body {
   }
   padding: 0 0 0 1em;
   margin-right: 2em;
+}
+
+
+@media (max-width: 350px) {
+  .navbar-brand {
+    h4 {
+      font-size: 16px;
+    }
+    padding: 0 0 0 0.3em;
+    margin-right: 0;
+  }
+
 }
 
 /*
