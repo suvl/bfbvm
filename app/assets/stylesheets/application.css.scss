@@ -82,33 +82,6 @@ body {
 }
 
 .body-container {
-  > .container {
-    float: left;
-    background: white;
-    margin-left: 10%;
-    margin-top: 90px;
-    max-width: 600px;
-  }
-  > .right-container {
-    float: right;
-    background: white;
-    margin-right: 10%;
-    margin-top: 90px;
-    max-width: 600px;
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-  }
-
-  > .container-home {
-    margin: 90px auto;
-    background: white;
-    background: rgba(255, 255, 255, 0.90);
-    max-width: 600px;
-    padding: 2em;
-  }
-
   position: absolute;
   top: 70px;
   bottom: 70px;
@@ -117,6 +90,31 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   max-width: 100vw;
+
+  > .container-fluid {
+    margin-top: 3em;
+    .bfm-page-header {
+      background-color: #ffffff;
+      h1{
+        border-bottom: 1px solid #666666;
+      }
+    }
+    .bfm-right-container {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .container-home {
+    margin: 90px auto;
+    background: white;
+    background: rgba(255, 255, 255, 0.90);
+    max-width: 600px;
+    padding: 2em;
+  }
+
 }
 
 .footer {
