@@ -1,10 +1,15 @@
 <div class="body-container">
-    <div class="container-home">
-      <div class="page-header">
+    <div class="container-home row">
+      <div class="page-header col-md-4 col-md-offset-1">
         <h1><%= @page.title %></h1>
+        <%=raw @page.content_for(:body) %>
       </div>
+      <div class="col-md-4 col-md-offset-2">
+        <h1>Agenda</h1>
+        <div id="bfbvm-agenda">
 
-      <%=raw @page.content_for(:body) %>
-
+        </div>
+      </div>
     </div>
+
 </div>

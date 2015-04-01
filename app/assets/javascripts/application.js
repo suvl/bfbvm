@@ -15,3 +15,33 @@
 // require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+
+function load_agenda(){
+    $.getJSON( "http://bfbvm-sib.herokuapp.com/services.json", function( data ) {
+        var items = [];
+
+        $.each( data, function( key, val ) {
+            var item = "<tr><td>" + val.data + "</td>";
+
+            item += "<td id='" + val.id + "'>" + val.nome;
+            if (val.local != null)
+            {
+                item += " (" + val.local + ")";
+            }
+            item += "</td></tr>";
+            items.push( item );
+        });
+
+        $( "<table/>", {
+            "class": "table booking",
+            html: items.join( "" )
+        }).appendTo( "#bfbvm-agenda" );
+    });
+}
+
+$(function(){
+    if ($("#bfbvm-agenda").length > 0)
+    {
+        load_agenda();
+    }
+});
