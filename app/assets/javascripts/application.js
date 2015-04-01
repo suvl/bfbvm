@@ -24,7 +24,7 @@ function load_agenda(){
             var item = "<tr><td>" + val.data + "</td>";
 
             item += "<td id='" + val.id + "'>" + val.nome;
-            if (val.local != null)
+            if (val.local != "")
             {
                 item += " (" + val.local + ")";
             }
