@@ -2,14 +2,24 @@
 
 <div class="body-container">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-4 col-sm-offset-1 bfm-page-header">
+      <div class="row bfbvm-content">
+        <div class="col-sm-5 col-sm-offset-1 bfm-page-header">
           <h1><%= @page.custom_slug_or_title %></h1>
           <%=raw @page.content_for(:body) %>
         </div>
-        <div class="col-sm-4 col-sm-offset-1 bfm-right-container">
+        <div class="col-sm-5 bfm-right-container">
+
+              <div id='gallery'>
+                <% @page.images.each do |image| %>
+                    <div style="background-image: url(<%= image.url %>)">
+
+                    </div>
+                <% end %>
+              </div>
+
           <% if @page.content_for(:side_body) %>
-              <%=raw @page.content_for(:side_body) %>
+              <%=#raw @page.content_for(:side_body)
+              %>
           <% end %>
         </div>
       </div>

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '4.2'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
@@ -42,7 +42,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 
-gem 'refinerycms', git: 'https://github.com/refinery/refinerycms', branch: 'master'
+gem 'refinerycms', :git => 'https://github.com/refinery/refinerycms'
 
 gem 'quiet_assets', :group => :development
 
@@ -59,6 +59,9 @@ gem 'refinerycms-wymeditor', ['~> 1.0', '>= 1.0.6']
 
 # multiple languages
 gem 'refinerycms-i18n'
+
+# images in pages
+gem "refinerycms-page-images", github: "refinery/refinerycms-page-images", branch: "master"
 
 #gem 'font-awesome-sass'
 

@@ -9,6 +9,20 @@ pt:
           image_alt_help: Texto alternativo caso a imagem não esteja disponível
       locale_picker:
           language: língua
+      pages:
+        tabs:
+          images_bar:
+            add: Adicionar Imagem
+    plugins:
+      refinery_page_images:
+        tab_name: Imagens da Página
+        title: Imagens da Página
+        description: Imagens da Página permite relacionar uma ou mais imagens a qualquer página no Refinery, tornando muito simples a criação de galerias de imagem no front end com popups no estilo lightbox.
+    js:
+      admin:
+        page_images:
+          add_caption: Adicionar Legenda
+          done: Feito
     users:
       reset:
         code_invalid: código inválido
@@ -21,3 +35,11 @@ pt:
   edit: editar
   created: criado
   welcome: bem-vindo
+  add: adicionar
+  seo_meta:
+      form:
+        seo: Otimização para Motores de Busca
+        seo_override_title: Título para o motor de busca
+        seo_override_title_help: Digite de 5 a 10 palvras pequenas que resumem o conteúdo desta página.
+        meta_description_title: Descrição de metadados
+        meta_description_help: Digite duas ou três sentenças concisas descrevendo sobre o que é essa página.

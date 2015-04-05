@@ -13,10 +13,19 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "show";
 /*@import "font-awesome-sprockets";
 @import "font-awesome";*/
 
+$bfbvm-color: #3B72D9;
 
+@mixin create-background($backgroundpic) {
+  background: image_url($backgroundpic) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -30,55 +39,27 @@ body {
 }
 
 .background1 {
-  background: image_url("background1.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include create-background('background1.jpg');
 }
 
 .background2 {
-  background: image_url("background2.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include create-background('background2.jpg');
 }
 
 .background3 {
-  background: image_url("background3.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include create-background('background3.jpg');
 }
 .background4 {
-  background: image_url("background4.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include create-background('background4.jpg');
 }
 .background5 {
-  background: image_url("background5.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include create-background('background5.jpg');
 }
 .background6 {
-  background: image_url("background6.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include create-background('background6.jpg');
 }
 .background7 {
-  background: image_url("background7.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include create-background('background7.jpg');
 }
 
 .body-container {
@@ -93,19 +74,10 @@ body {
 
   > .container-fluid {
     margin-top: 3em;
-    .bfm-page-header {
-      background-color: #ffffff;
-      h1{
-        border-bottom: 1px solid #666666;
-      }
-    }
-    .bfm-right-container {
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-    }
+
   }
+
+
 
   .container-home {
     margin: 90px auto;
@@ -114,8 +86,15 @@ body {
     padding: 2em;
 
     #bfbvm-agenda {
-      max-height: 300px;
+      max-height: 400px;
       overflow-y: scroll;
+      .booking tr td:nth-of-type(1) {
+        min-width: 7em;
+      }
+      .loading-gif {
+        display: block;
+        margin: 0 auto;
+      }
     }
   }
 
@@ -250,6 +229,12 @@ body {
       margin-right: 0;
       width: 90vw;
     }
+
+    .container-home {
+      #bfbvm-agenda {
+        max-height:none;
+      }
+    }
   }
 }
 
@@ -261,7 +246,8 @@ body {
 
 .navbar-brand {
   > img {
-    max-height: 150%;
+    width: 70px;
+    height: 70px;
     display: inline-block;
     padding: 0;
     margin-top: -1em;
@@ -324,4 +310,3 @@ body {
   margin: 0px;
   color: #eee;
 }
-
