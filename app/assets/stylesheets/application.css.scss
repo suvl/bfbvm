@@ -306,3 +306,15 @@ body {
   margin: 0px;
   color: #eee;
 }
+
+@media (max-width: 1000px){
+  .footer-paragraph {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 812px){
+  .footer-paragraph {
+    display: none;
+  }
+}
