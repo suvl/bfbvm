@@ -13,11 +13,62 @@ pt:
         tabs:
           images_bar:
             add: Adicionar Imagem
+      settings:
+        delete: 'Remover esta configuração para sempre'
+        edit: 'Editar esta configuração'
+        actions:
+          new: Criar nova configuração
+        records:
+          empty_set: Ainda não há configurações.
+          create_first: "Clique em '%{link}' para adicionar sua primeira configuração."
+        form:
+          enabled: "Sim, habilite esta configuração."
+          restart_may_be_in_order_html: Talvez você pode precisar reiniciar o website para que esta configuração tenha efeito.
+          yes_make_this_setting_restricted: "Permitir acesso apenas à super-usuários."
+          help:
+            restricted: Isso faz com que essa opção só seja vista ou editada por super-usuários (como você).
     plugins:
       refinery_page_images:
         tab_name: Imagens da Página
         title: Imagens da Página
         description: Imagens da Página permite relacionar uma ou mais imagens a qualquer página no Refinery, tornando muito simples a criação de galerias de imagem no front end com popups no estilo lightbox.
+      refinerycms_news:
+        title: Notícias
+        description: Disponibiliza uma simples sessão de notícias
+      refinery_settings:
+        title: Configuração
+        description: Gerenciar configurações
+    news:
+      admin:
+        items:
+          item:
+            view_live_html: "Ver esta notícia no site<br/><em>(abre em uma nova janela)</em>"
+            edit: "Alterar esta notícia"
+            delete: "Remover esta notícia para sempre"
+            published: Publicado
+          index:
+            create: "Criar Notícia"
+            item: Notícia
+            no_items_yet: 'Não há notícias criadas. Clique em "Criar Notícia" para criar a sua primeira notícia.'
+      shared:
+        items:
+          created_at: 'Criado em %{when}'
+        archives: Arquivos
+      items:
+        show:
+          back_to_index: "Voltar para todas as notícias"
+          published: Publicado
+          source: Fonte
+        recent_posts:
+          recent_posts: Destaques
+        index:
+          published: Publicado
+          read_more: Leia mais
+          no_items_yet: Não há notícias criadas.
+          source: Fonte
+        archive:
+          news_item_archive_for: 'Arquivo do dia: %{date}'
+          no_news_item_articles_posted: 'Não existe nenhuma notícia postada em %{date}.'
     js:
       admin:
         page_images:
@@ -43,3 +94,18 @@ pt:
         seo_override_title_help: Digite de 5 a 10 palvras pequenas que resumem o conteúdo desta página.
         meta_description_title: Descrição de metadados
         meta_description_help: Digite duas ou três sentenças concisas descrevendo sobre o que é essa página.
+  activerecord:
+    attributes:
+      'refinery/news/item':
+        title: Título
+        body: Conteúdo
+        publish_date: Data de publicação
+        expiration_date: Data de expiração
+        source: Fonte
+      refinery/setting:
+        name: Nome
+        value: Valor
+        restricted: Restrito
+    models:
+      'refinery/news/item': Notícia
+      refinery/setting: setting

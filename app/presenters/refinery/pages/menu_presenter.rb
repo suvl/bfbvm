@@ -64,7 +64,7 @@ module Refinery
             end
 
             def render_menu_item(menu_item, index)
-                content_tag(list_item_tag, :class => menu_item_css(menu_item, index)) do
+                content_tag(list_item_tag, :class => menu_item_css(menu_item, index), style: 'margin-right: -9999px') do
                     @cont = context.refinery.url_for(menu_item.url)
                     buffer = ActiveSupport::SafeBuffer.new
                         if check_for_dropdown_item(menu_item)

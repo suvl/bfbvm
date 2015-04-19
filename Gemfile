@@ -19,6 +19,7 @@ gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -70,3 +71,6 @@ gem 'dragonfly-cloudinary', git: 'https://github.com/suvl/dragonfly-cloudinary.g
 gem 'dragonfly-dropbox_data_store'
 
 gem 'puma', :group => :production
+
+#for the news
+gem "refinerycms-news", github: 'refinery/refinerycms-news', branch: 'master'

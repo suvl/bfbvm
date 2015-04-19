@@ -19,4 +19,5 @@ load_agenda = ->
 $ ->
   if $('#bfbvm-agenda').length > 0
     load_agenda()
-  return
+
+  $("section > ul.nav > li, .navbar-nav .dropdown-menu > li").delay(400).animate({'margin-right': 0}, 900, 'easeOutExpo')

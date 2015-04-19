@@ -1,0 +1,34 @@
+.news_item_truncated {
+  img {
+    max-width: 100%;
+  }
+  .news-truncated-body {
+    font-size: 0.8em;
+  }
+}
+
+div.news-image-index, div.news-image {
+  background-position: center;
+  background-size: cover;
+}
+
+div.news-image {
+  width: 100%;
+  height: 30vmin;
+}
+
+.carousel-inner {
+  div {
+    height: 50vmin;
+    background-size: cover;
+    background-position: center;
+    .carousel-caption {
+      p {
+        position: absolute;
+        bottom: 2em;
+        right: 0;
+        left: 0;
+      }
+    }
+  }
+}

@@ -1,4 +1,16 @@
 GIT
+  remote: git://github.com/refinery/refinerycms-news.git
+  revision: 1a72148610487e25c74be05a6e73264c920ac96b
+  branch: master
+  specs:
+    refinerycms-news (3.0.0)
+      acts_as_indexed (~> 0.8.0)
+      friendly_id (~> 5.1.0)
+      globalize (>= 4.0.0, < 5.2)
+      refinerycms-core (~> 3.0.0)
+      refinerycms-settings (~> 3.0.0)
+
+GIT
   remote: git://github.com/refinery/refinerycms-page-images.git
   revision: d67d2fe6bbe5910ac2bddbe21b7238ebdf1a0340
   branch: master
@@ -220,6 +232,9 @@ GEM
     refinerycms-i18n (3.0.1)
       rails-i18n (~> 4.0.1)
       routing-filter (>= 0.4.0)
+    refinerycms-settings (3.0.0)
+      friendly_id (~> 5.0, >= 5.0.1)
+      refinerycms-core (~> 3.0, >= 3.0.0)
     refinerycms-wymeditor (1.0.6)
       refinerycms-core (~> 3.0, >= 3.0.0)
     responders (2.1.0)
@@ -281,6 +296,7 @@ DEPENDENCIES
   dragonfly-dropbox_data_store
   jbuilder (~> 2.0)
   jquery-rails
+  jquery-ui-rails
   pg
   puma
   quiet_assets
@@ -288,6 +304,7 @@ DEPENDENCIES
   refinerycms!
   refinerycms-acts-as-indexed (~> 2.0, >= 2.0.0)
   refinerycms-i18n
+  refinerycms-news!
   refinerycms-page-images!
   refinerycms-wymeditor (~> 1.0, >= 1.0.6)
   sass-rails (~> 4.0.3)

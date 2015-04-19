@@ -22,4 +22,6 @@ class ApplicationController < ActionController::Base
       render :text => '', :content_type => 'text/plain'
     end
   end
+
+
 end

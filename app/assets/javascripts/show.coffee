@@ -10,7 +10,7 @@ bfbvm_gallery = ->
   $("#gallery div").each (index) ->
     value = values[index]
     zindex = 1000 + value;
-    $(this).animate( {top: value + 'px', right: value + 'px', 'z-index': zindex }, 500 )
+    $(this).css('z-index', zindex).animate( {top: value + 'px', right: value + 'px' }, 500 )
     #$(this).css('top', )
     #$(this).css('right', value + "px")
     #$(this).css('z-index', zindex)

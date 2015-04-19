@@ -288,7 +288,7 @@ $screen-phone:               $screen-xs-min !default;
 
 // Small screen / tablet
 //** Deprecated `$screen-sm` as of v3.0.1
-$screen-sm:                  768px !default;
+$screen-sm:                  816px !default;
 $screen-sm-min:              $screen-sm !default;
 //** Deprecated `$screen-tablet` as of v3.0.1
 $screen-tablet:              $screen-sm-min !default;
@@ -368,8 +368,8 @@ $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 $navbar-default-link-color:                #777 !default;
 $navbar-default-link-hover-color:          #333 !default;
 $navbar-default-link-hover-bg:             transparent !default;
-$navbar-default-link-active-color:         #555 !default;
-$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-active-color:         #E8E8E8 !default;
+$navbar-default-link-active-bg:            rgba(189, 78, 89,0.86) !default;
 $navbar-default-link-disabled-color:       #ccc !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
